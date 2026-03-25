@@ -21,13 +21,13 @@ This project uses a database created using Ruby on Rails to store and manage all
 A dataset is a collection of data that is organized into tables. Each table stores a specific type of information, and all tables are connected to each other.
 
 ### Tables Used in This Project:
-1. Users
+1. Author
 This table stores information about users of the website, such as their name and email.
-2. Products
+2. Book
 This table stores details about products, including name, description, and price.
-3. Categories
-This table is used to organize products into different groups (for example: electronics, clothing, etc.).
-4. Orders
+3. Genre
+This table is used to organize products into different groups.
+4. Review
 This table stores information about purchases made by users.
 
 ### Data Source:

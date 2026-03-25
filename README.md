@@ -70,8 +70,8 @@ For example, the User model represents the users table in the database.
 
 Active Record also allows defining relationships between tables, such as one-to-many and many-to-many associations.
 # At least one association
-One User → many Orders
-Each Order → one User
+One Author → many Book
+Each book → one genre
 # Validation
 Validation checks if data is correct before saving it in the database.
 # Hierarchal Navigation

@@ -34,10 +34,10 @@ This table stores information about purchases made by users.
 The data used in this project is created using the Rails seeds file (db/seeds.rb). This means the data is generated for testing and demonstration purposes.
 
 ### Relationships Between Tables:
-- A User can have many Orders
-- Each Order belongs to one User
-- A Product belongs to one Category
-- A Category can have many Products
+- A Author can have many Books
+- Each Book belongs to one Author
+- A Book belongs to one genre
+- A book can have many review
 
 ### Why This Dataset is Used:
 This dataset helps simulate a real-world e-commerce system. It allows users to browse products, view categories, and place orders.
